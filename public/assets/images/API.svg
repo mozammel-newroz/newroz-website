@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="73" viewBox="0 0 73 73">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9b6b6"/>
+      <stop offset="1" stop-color="#fff5f5"/>
+    </linearGradient>
+    <filter id="Ellipse_2445" x="0" y="0" width="73" height="73" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10427" data-name="Group 10427" transform="translate(-636.5 -2374.5)">
+    <g transform="matrix(1, 0, 0, 1, 636.5, 2374.5)" filter="url(#Ellipse_2445)">
+      <circle id="Ellipse_2445-2" data-name="Ellipse 2445" cx="32" cy="32" r="32" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="API" transform="translate(655 2418)" fill="#444" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">API</tspan></text>
+  </g>
+</svg>

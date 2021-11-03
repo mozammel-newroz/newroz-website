@@ -1,0 +1,405 @@
+.banner_container_bg {
+  background-image: url("../../assets/images/page_bg.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_left_side {
+  flex-basis: 40%;
+}
+.banner_left_side h1 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  letter-spacing: 3.84px;
+  color: white;
+}
+.banner_left_side p {
+  font-size: 16px;
+  letter-spacing: 1.92px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.banner_right_side {
+  flex-basis: 40%;
+  text-align: right;
+}
+.image {
+  width: 90%;
+}
+
+.message_container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 0;
+}
+.carousel_container_bg {
+  background-image: url("../../assets/images/subtraction-1@2x.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel_container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel_container_datail_side {
+  width: 40%;
+}
+.carousel_container_corousel_side {
+  width: 60%;
+}
+.theme_bg {
+  background: #fff6ee;
+}
+.message_title {
+  position: relative;
+}
+.message_title span {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+}
+.message_title h2 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+.message_title hr {
+  height: 3px;
+  max-width: 310px;
+  background: #febc61;
+  margin: 0;
+  border: none;
+  border-radius: 25px;
+}
+.card_holder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 23%;
+
+  height: 260px;
+}
+.card img {
+  max-width: 120px;
+  max-height: 120px;
+
+  display: block;
+  margin: auto;
+}
+.card_holder h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2.88px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.mission_container {
+  display: flex;
+  align-items: center;
+}
+.mission_detail_side {
+  flex-basis: 50%;
+  order: 1;
+}
+.mission_detail_side p,
+.carousel_container_datail_side p {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  text-align: left;
+  padding-right: 1rem;
+}
+.mission_image_side {
+  flex-basis: 50%;
+  order: 2;
+}
+.mission_image {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+}
+
+.topic_container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.topic {
+  display: flex;
+  align-items: center;
+  flex-basis: 46%;
+  margin-bottom: 40px;
+}
+.topic_image_side {
+  flex-basis: 30%;
+  text-align: center;
+}
+.topic_detail_side {
+  flex-basis: 70%;
+}
+.topic_image {
+  max-width: 100px;
+}
+.topic_detail_side h3 {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+}
+.topic_detail_side h4 {
+  font-family: "Lora", serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+.department {
+  flex-basis: 30%;
+  min-height: 250px;
+  text-align: center;
+}
+.department_title {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.department_img {
+  max-width: 30%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner_container {
+    padding: 30px 120px;
+  }
+  .banner_left_side {
+    flex-basis: 55%;
+  }
+  .department {
+    min-height: 170px;
+  }
+  .department_title {
+    font-size: 16px;
+  }
+  .mission_detail_side p,
+  .carousel_container_datail_side p {
+    font-size: 22px;
+  }
+  .banner_left_side h1 {
+    font-size: 40px;
+
+    font-weight: 400;
+    margin: 0 0 24px 0;
+    letter-spacing: 3.5px;
+  }
+  .banner_left_side p {
+    font-size: 14px;
+    letter-spacing: 1.92px;
+    line-height: 23px;
+  }
+
+  .message_container {
+    padding: 60px 120px;
+  }
+  .carousel_container {
+    padding: 60px 120px;
+    flex-direction: column;
+  }
+  .carousel_container_datail_side {
+    width: 100%;
+  }
+  .carousel_container_corousel_side {
+    width: 100%;
+  }
+  .title_bg {
+    height: 120px;
+  }
+  .message_title h2 {
+    font-size: 30px;
+  }
+  .message_title hr {
+    max-width: 235px;
+  }
+
+  .card img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .banner_container {
+    padding: 30px 60px;
+  }
+  .mission_detail_side p,
+  .carousel_container_datail_side p {
+    font-size: 16px;
+  }
+  .banner_left_side h1 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+  }
+  .banner_left_side p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 19px;
+  }
+
+  .message_container {
+    padding: 60px;
+  }
+  .carousel_container {
+    padding: 60px;
+  }
+  .title_bg {
+    height: 100px;
+  }
+  .message_title h2 {
+    font-size: 20px;
+  }
+  .message_title hr {
+    max-width: 155px;
+  }
+  .card img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .card_holder h3 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner_container {
+    padding: 30px;
+    display: block;
+  }
+  .banner_left_side {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .banner_left_side h1 {
+    font-size: 28px;
+
+    margin: 0 0 16px 0;
+    letter-spacing: 1px;
+  }
+  .banner_left_side p {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+  }
+  .banner_right_side {
+    width: 100%;
+    text-align: center;
+  }
+  .image {
+    width: 70%;
+  }
+
+  .message_container {
+    padding: 30px;
+  }
+  .carousel_container {
+    padding: 30px;
+  }
+  .title_bg {
+    height: 85px;
+  }
+  .message_title span {
+    top: -20px;
+    left: -20px;
+  }
+  .message_title h2 {
+    margin: 0 0 15px 0;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .message_title hr {
+    max-width: 195px;
+  }
+  .card {
+    flex-basis: 100%;
+  }
+  .mission_container {
+    flex-direction: column;
+  }
+  .mission_detail_side {
+    flex-basis: 100%;
+    order: 2;
+  }
+  .mission_image_side {
+    flex-basis: 100%;
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .mission_image {
+    width: 80%;
+    margin: auto;
+  }
+  .topic {
+    flex-basis: 100%;
+  }
+  .topic_detail_side h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+  }
+  .topic_detail_side h4 {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .topic_image {
+    max-width: 85px;
+  }
+  .department {
+    flex-basis: 90%;
+    min-height: 170px;
+    margin-bottom: 20px;
+  }
+
+  .department_title {
+    font-size: 18px;
+  }
+}

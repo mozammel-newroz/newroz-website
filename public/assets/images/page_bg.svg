@@ -1,0 +1,10 @@
+<svg id="Inner_page_bg" data-name="Inner page bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919.74" height="415.79" viewBox="0 0 1919.74 415.79">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.253" y1="1.382" x2="0.876" y2="-0.886" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e365a"/>
+      <stop offset="0.711" stop-color="#022679"/>
+      <stop offset="1" stop-color="#022679"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_2058" data-name="Rectangle 2058" width="1919.74" height="415.79" fill="url(#linear-gradient)"/>
+</svg>

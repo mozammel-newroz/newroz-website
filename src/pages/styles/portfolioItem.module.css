@@ -1,0 +1,253 @@
+.banner_container_bg {
+  background-image: url("../../assets/images/page_bg.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner_container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_left_side {
+  flex-basis: 40%;
+}
+.banner_left_side h1 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  letter-spacing: 3.84px;
+  color: white;
+}
+.banner_left_side p {
+  font-size: 16px;
+  letter-spacing: 1.92px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  color: white;
+}
+.banner_right_side {
+  flex-basis: 40%;
+  text-align: right;
+}
+.image {
+  width: 70%;
+}
+.main_container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 0;
+}
+.item_container {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 60px 150px; */
+  flex-wrap: wrap;
+}
+.item_image_side {
+  flex-basis: 40%;
+}
+.item_article {
+  flex-basis: 100%;
+  margin: 40px 0 25px;
+}
+.technology_style {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.technology_name {
+  background: #febc61;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+.breadcrumb_item {
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  color: black;
+  text-align: center;
+  cursor: default;
+}
+.breadcrumb_item:first-child {
+  padding: 7px 10px 7px 0;
+}
+
+.breadcrumb_bg {
+  background: #febc61;
+}
+.item_image {
+  width: 80%;
+  display: block;
+  margin-right: auto;
+}
+.item_Detail_side {
+  flex-basis: 60%;
+  margin-bottom: 40px;
+}
+.item_title {
+  margin-bottom: 30px;
+}
+.item_Detail_side h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  margin: 0 0 20px 0;
+  color: #1e365a;
+}
+.h3 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 8px 0;
+}
+.h5 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.92px;
+  line-height: 30px;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner_container {
+    padding: 30px 120px;
+  }
+  .banner_left_side {
+    flex-basis: 55%;
+  }
+  .banner_left_side h1 {
+    font-size: 40px;
+
+    margin: 0 0 24px 0;
+    letter-spacing: 3.5px;
+  }
+  .banner_left_side p {
+    font-size: 14px;
+    letter-spacing: 1.92px;
+    line-height: 23px;
+  }
+  .item_article {
+    margin: 20px 0;
+  }
+   
+  /* .item_container {
+    padding: 60px 120px;
+
+  } */
+  .main_container {
+    padding: 30px 120px;
+  }
+  .item_Detail_side h2 {
+    font-size: 30px;
+  }
+  .h5 {
+    letter-spacing: 1.2px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .banner_container {
+    padding: 30px 60px;
+  }
+
+  .banner_left_side h1 {
+    font-size: 32px;
+
+    margin: 0 0 20px 0;
+    letter-spacing: 3.5px;
+  }
+  .banner_left_side p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 19px;
+  }
+
+  
+  .main_container {
+    padding: 40px 100px;
+  }
+  .item_container {
+    /* padding: 40px 100px; */
+    flex-direction: column;
+  }
+  .item_image {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner_container {
+    padding: 30px;
+    display: block;
+  }
+  .banner_left_side {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .banner_left_side h1 {
+    font-size: 24px;
+
+    margin: 0 0 16px 0;
+    letter-spacing: 1px;
+  }
+  .banner_left_side p {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+  }
+  .banner_right_side {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .technology_name {
+    flex-basis: 44%;
+  }
+  .main_container {
+    padding: 30px;
+  }
+  .item_container {
+    /* padding: 30px; */
+    flex-direction: column;
+  }
+  .item_image {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .item_Detail_side h2 {
+    font-size: 20px;
+  }
+  .h3 {
+    font-size: 24px;
+  }
+  .h5 {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+  .breadcrumb_item {
+    font-size: 12px;
+  }
+}

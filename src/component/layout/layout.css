@@ -1,0 +1,15 @@
+.navbar a {
+  display: block;
+  font-size: 1rem;
+  color: #3c516f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  /* background-color: blue; */
+  color: #febc61;
+}

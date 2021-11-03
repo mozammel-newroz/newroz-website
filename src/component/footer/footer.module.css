@@ -1,0 +1,149 @@
+.container {
+  padding: 70px 0;
+
+  background: #1e365a;
+}
+.main {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link_item_style {
+  text-decoration: none;
+  color: white;
+}
+.social_icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 24px 0;
+  max-width: 330px;
+}
+.icons {
+  color: white;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+.logo {
+  /* height: 75px; */
+  width: 320px;
+  display: block;
+  margin: auto;
+}
+.companyInfo {
+  min-width: 320px;
+}
+.companyInfo p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.4px;
+}
+.title, .link_title {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 3px solid #febc61;
+  padding-bottom: 16px;
+  text-align: left;
+}
+ 
+.contactStyle {
+  min-width: 210px;
+  text-align: left;
+}
+.contactStyle p {
+  color: white;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+.linkStyle {
+  min-width: 210px;
+  text-align: left;
+}
+
+.linkStyle p {
+  color: white;
+  font-size: 1rem;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.scroller {
+  max-width: 120px;
+  cursor: pointer;
+  /* display: block; */
+  /* margin: auto; */
+}
+
+@media screen and (max-width: 1024px) {
+  .scroller {
+    display: none;
+  }
+  .container {
+    padding: 50px 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .container {
+    padding: 50px 40px;
+  }
+  .main {
+    flex-wrap: wrap;
+  }
+  .companyInfo {
+    min-width: 100%;
+  }
+  .social_icon {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contactStyle {
+    min-width: 40%;
+    padding: 40px 20px 0px 0px;
+  }
+  .linkStyle {
+    min-width: 40%;
+    padding: 40px 0px 0px 20px;
+    text-align: right;
+  }
+  .link_title{
+    text-align: right;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 50px 20px;
+  }
+  .companyInfo {
+    min-width: 260px;
+  }
+  .logo {
+    max-width: 100%;
+  }
+  .social_icon {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactStyle {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  /* .contactStyle {
+    text-align: center;
+  } */
+  .linkStyle {
+    text-align: center;
+  }
+  .title,.link_title {
+    
+    text-align: center;
+  }
+}

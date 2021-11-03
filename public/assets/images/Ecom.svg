@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="73" viewBox="0 0 73 73">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffdac1"/>
+      <stop offset="1" stop-color="#fff7f2"/>
+    </linearGradient>
+    <filter id="Ellipse_2439" x="0" y="0" width="73" height="73" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10628" data-name="Group 10628" transform="translate(-295.5 -1290.5)">
+    <g id="Group_10450" data-name="Group 10450" transform="translate(-48 25)">
+      <g transform="matrix(1, 0, 0, 1, 343.5, 1265.5)" filter="url(#Ellipse_2439)">
+        <circle id="Ellipse_2439-2" data-name="Ellipse 2439" cx="32" cy="32" r="32" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="mobile_wallet" data-name="mobile wallet" transform="translate(315 1310)">
+      <path id="Path_969" data-name="Path 969" d="M15,57h3.348v1.116H15Z" transform="translate(-6.837 -27.348)"/>
+      <path id="Path_970" data-name="Path 970" d="M31.952,15.968h.016V13.9a2.584,2.584,0,0,0-2.581-2.581h-.032c.013-.172.032-.342.032-.516A6.7,6.7,0,0,0,18.548,5.529V3.581A2.584,2.584,0,0,0,15.968,1H3.581A2.584,2.584,0,0,0,1,3.581V30.419A2.584,2.584,0,0,0,3.581,33H15.968a2.584,2.584,0,0,0,2.581-2.581V29.9H30.419A2.584,2.584,0,0,0,33,27.323v-9.29A2.571,2.571,0,0,0,31.952,15.968Zm-2.565-3.613A1.55,1.55,0,0,1,30.935,13.9v1.6a2.578,2.578,0,0,0-.516-.052H27.5a6.679,6.679,0,0,0,1.7-3.1Zm-6.71-7.226a5.67,5.67,0,0,1,3.249,10.323H23.194V14.346a2.06,2.06,0,0,0-.516-4.056A1.032,1.032,0,1,1,23.71,9.258h1.032a2.063,2.063,0,0,0-1.548-1.991V6.161H22.161V7.267a2.06,2.06,0,0,0,.516,4.056,1.032,1.032,0,1,1-1.032,1.032H20.613a2.063,2.063,0,0,0,1.548,1.991v1.106H19.428A5.67,5.67,0,0,1,22.677,5.129Zm-10.27,22.71H2.032V5.129H17.516v1.4a6.678,6.678,0,0,0-1.548,4.281c0,.174.019.344.032.516H14.935A2.584,2.584,0,0,0,12.355,13.9V27.323A2.578,2.578,0,0,0,12.407,27.839Zm2.529-15.484h1.219a6.688,6.688,0,0,0,.338,1.032H14.935v1.032H17v-.06a6.658,6.658,0,0,0,.85,1.092H14.935a1.548,1.548,0,0,1,0-3.1ZM3.581,2.032H15.968a1.55,1.55,0,0,1,1.548,1.548V4.1H2.032V3.581A1.55,1.55,0,0,1,3.581,2.032ZM17.516,30.419a1.55,1.55,0,0,1-1.548,1.548H3.581a1.55,1.55,0,0,1-1.548-1.548V28.871H12.871v-.016A2.571,2.571,0,0,0,14.935,29.9h2.581Zm12.9-1.548H14.935a1.55,1.55,0,0,1-1.548-1.548V15.967a2.57,2.57,0,0,0,1.548.517H30.419a1.55,1.55,0,0,1,1.548,1.548v1.548H25.774a3.1,3.1,0,0,0,0,6.194h6.194v1.548A1.55,1.55,0,0,1,30.419,28.871Zm1.548-8.258v4.129H25.774a2.065,2.065,0,0,1,0-4.129Z"/>
+      <path id="Path_971" data-name="Path 971" d="M47,42h1.116v1.116H47Z" transform="translate(-22.322 -19.896)"/>
+    </g>
+  </g>
+</svg>
